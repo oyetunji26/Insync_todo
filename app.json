@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "InkSync-todo",
+    "slug": "todo",
+    "version": "1.0.0",
+    "owner": "oyetunji",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "librobase",
+    "userInterfaceStyle": "automatic",
+    "expo": {
+      "experiments": {
+        "tsconfigPaths": true
+      },
+      "jsEngine": "jsc"
+    },
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#191919"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#191919"
+      },
+      "package": ""
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}

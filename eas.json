@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 13.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "NODE_VERSION": "16"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "NODE_VERSION": "16"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "distribution": "store" ,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "NODE_VERSION": "16"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
